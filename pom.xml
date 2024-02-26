@@ -14,4 +14,15 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <!-- Другие зависимости -->
+
+        <!-- Зависимость для JUnit 5 -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.1</version> <!-- Версия JUnit 5 -->
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
